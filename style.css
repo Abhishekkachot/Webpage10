@@ -1,0 +1,413 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0px;
+}
+.navbar .navleft{
+    width: 50%;
+    height: inherit;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+.navbar .navright{
+    width: 50%;
+    height: inherit;
+    float: right;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    word-spacing: 10px;
+    text-decoration: bold;
+}
+.herosection{
+    text-align: center;
+    padding: 30vh;
+    margin-top: 40px;
+    background-image: url(./Assets/a.jpg) ;
+    background-attachment: fixed;
+
+
+}
+h3{
+    word-spacing: 10px;
+    
+}
+.h1{
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+.third{
+    letter-spacing: 50px;
+    font-size: 500%;
+    
+}
+.herosection .button{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    width: 130px;
+    height: 35px;
+    
+    
+}
+.herosection2 .left{
+    width: 40px;
+    height: 3px;
+    border-top: 10px black;
+}
+.herosection2 .left .border1{
+    height: 50px;
+    width: 50px;
+    border-bottom: 3px solid black;
+    margin-bottom: 5px;
+    margin-left: 240px;
+}
+.herosection2 .left .fifth{
+    margin-left: 190px;
+    width: 130px;
+    height: 35px;
+    padding: 50px;
+    border-top: 5px solid black;
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 24px;
+    border-top: 5px black;
+}
+
+.herosection2 .left .sixth{
+    margin-left: 240px;
+    width: 50px;
+    height: 35px;
+    font-weight: bolder;
+    font-size: 50px;
+    
+}
+.herosection2{
+    width: 100%;
+    height: 700px;
+}
+.herosection2 .left{
+    width: 50%;
+    float: left;
+}
+.herosection2 .left .seventh{
+    margin-left: 180px;
+    padding: 60px;
+    text-align: justify;
+}
+.herosection2 .left .eighth{
+    margin-left: 240px;
+    text-align: justify;
+    width: 55%;
+    
+}
+
+.herosection2 .right
+{
+    background-image: url(./Assets/b.jpg);
+    width: 50%;
+    height: inherit;
+    background-color: red;
+    float: right;
+    border-radius: 10px;
+    background-size: cover;
+    
+}
+.herosection2 .ninth{
+    background-color: black;
+    color: #ffffff;
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    margin-left: 240px;
+   
+
+
+}
+.herosection2 .tenth
+{
+    background-color: rgb(252, 251, 251);
+    color: rgb(14, 13, 13);
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    margin-left: 15px;
+}
+.herosection3{
+    width: 100%;
+    height: 800px;
+    background-image: url(./Assets/c.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    
+    
+}
+.herosection3 .border2{
+    height: 50px;
+    width: 50px;
+    border-bottom: 3px solid black;
+    margin-left: 210px;
+}
+.herosection3 .eleventh{
+    width: 600px;
+    height: 100px;
+    margin-left: 50px;
+    padding-top: 40px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.herosection3 .twelfth{
+    width: 400px;
+    height: 70px;
+    margin-left: 130px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.herosection3 .tirteenth{
+    width: 25%;
+    height: 400px;
+    border: 6px solid black;
+    margin-left: 180px;
+    float: left;
+}
+.herosection3 .fourteenth{
+    text-align: center;
+}
+.herosection3 .fifteenth{
+    text-align: center;
+}
+.herosection3 .border3{
+    height: 50px;
+    width: 260px;
+    border-bottom: 3px solid black;
+    margin-left: 30px;
+
+}
+.herosection3 .sixteenth{
+    text-align: center;
+    padding: 30px;
+}
+.herosection3 .button1
+{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+    margin-top: 60px;
+    border: none;
+}
+.herosection3 .seventeenth{
+    width: 25%;
+    height: 400px;
+    border: 6px solid black;
+    margin-left: 30px;
+    float: left;
+}
+.herosection3 .seventeenth .eightteenth{
+    text-align: center;
+}
+.herosection3 .seventeenth .nineteenth{
+    text-align: center;
+}
+.herosection3 .seventeenth .twentyth{
+    text-align: center;
+}
+.herosection3 .seventeenth .button2{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 75px;
+    border: none;
+}
+.herosection3 .seventeenth .twentyone{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+.herosection3 .seventeenth .twentytwo{
+    text-align: center;
+}
+.herosection3 .border4{
+    height: 50px;
+    width: 260px;
+    border-bottom: 3px solid black;
+    margin-left: 30px;
+    float: left;
+}
+.herosection3 .twentythree{
+    width: 25%;
+    height: 400px;
+    border: 6px solid black;
+    margin-left: 30px;
+    float: left;
+
+}
+.herosection3 .twentythree .twentyfour{
+    text-align: center;
+}
+.herosection3 .twentythree .twentyfive
+{
+    text-align: center;
+}
+.herosection3 .twentythree .border4{
+    height: 30px;
+    width: 260px;
+    border-bottom: 3px solid black;
+    margin-left: 30px;
+    float: left;
+}
+.herosection3 .twentythree .twentysix{
+    text-align: center;
+    margin-top: 50px;
+}
+.herosection3 .twentythree .twentyseven{
+    margin-left: 10px;
+}
+.herosection3 .twentythree .button3{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: none;
+}
+.herosection3 .button4{
+    width: 10%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+    border: none;
+}
+.twentyeight{
+    width: 100%;
+    height: 545px;
+    background-color: rgb(87,187,191);
+}
+.twentyeight .contact
+{
+    width: 50%;
+    float: left;
+}
+.twentyeight .contact .border5{
+    height: 50px;
+    width: 50px;
+    border-bottom: 3px solid black;
+    margin-left: 200px;
+    
+
+}
+.twentyeight .contact h3{
+    margin-left: 200px;
+    letter-spacing: 3px;
+}
+.twentyeight .contact .twentynine{
+    margin-left: 200px;
+}
+.twentyeight .contact a{
+    margin-left: 200px;
+    text-decoration: none;
+    color: black;
+}
+.twentyeight .contact .socialmedia
+{
+    margin-left: 200px;
+    letter-spacing: 15px;
+}
+.twentyeight .form{
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+}
+.twentyeight .form .button5{
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 40px;
+    margin-left: 340px;
+    border: none;
+    margin-top: 50px;
+}
+.twentyeight .form textarea{
+    background-color: #57BBBF;
+    border: 2px solid black;
+}
+.twentyeight .form .left{
+    float: left;
+}
+.twentyeight .form .left form input{
+    width: 250px;
+    height: 42px;
+    background-color: #57BBBF;
+    border: 2px solid black;
+}
+.twentyeight .form .right form input{
+    width: 250px;
+    height: 42px;
+    background-color: #57BBBF;
+    border: 2px solid black;
+}
+.twentyeight .form .email form input{
+    width: 520px;
+    height: 42px;
+    background-color: #57BBBF;
+    border: 2px solid black;
+}
+.twentyeight .form .right{
+    float: left;
+    margin-left: 20px;
+    background-color: #57BBBF;
+}
+.twentyeight .form .email
+{
+    float: left;
+    background-color: #57BBBF;
+    margin-top: 10px;
+}
+
+.twentyeight .form .Subject{
+    width: 30%;
+    height: 45px;
+    margin-bottom: 20px;
+    background-color: #57BBBF;
+}
+
+.twentyeight .form .Message{
+    width: 100%;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #57BBBF;
+}
+.twentyeight .form .Subject form input{
+    width: 520px;
+    height: 42px;
+    background-color: #57BBBF;
+    border: 2px solid black;
+
+}
+.twentyeight .form .Message form textarea{
+    width: 520px;
+    height: 100px;
+}
